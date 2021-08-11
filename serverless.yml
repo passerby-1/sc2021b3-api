@@ -23,7 +23,7 @@ provider:
           Action:
             - s3:putObject
             - s3:putObjectAcl
-          Resource: arn:aws:s3:::sc2021b3-demoapp-0000/*
+          Resource: arn:aws:s3:::sc2021b3-demoapp-0241/*
   httpApi:
     cors: true
     authorizers:
@@ -71,7 +71,7 @@ resources:
     ImageS3Bucket:
       Type: AWS::S3::Bucket
       Properties:
-        BucketName: 'sc2021b3-demoapp-0000'
+        BucketName: 'sc2021b3-demoapp-0241'
         CorsConfiguration:
           CorsRules:
             - AllowedHeaders: ["*"]
