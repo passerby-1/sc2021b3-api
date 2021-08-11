@@ -30,7 +30,7 @@ provider:
       auth0Authorizer:
         type: jwt
         identitySource: $request.header.Authorization
-        issuerUrl: https://dev-9zllcerz.us.auth0.com/
+        issuerUrl: https://passerby1.jp.auth0.com/
         audience: https://example.nekoruri.jp/
 
 functions:
